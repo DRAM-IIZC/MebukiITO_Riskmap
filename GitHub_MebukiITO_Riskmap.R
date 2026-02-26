@@ -3,7 +3,7 @@
 # Note: Due to privacy policies regarding sampling coordinates, 
 # the original dataset is provided in the manuscript in anonymized format.
 # Please replace 'data' with your own dataframe
-# crs = 2454 in our analysis
+# The script was developed using R version 4.4.1.
 
 ###################################################################################
 # Required packages
