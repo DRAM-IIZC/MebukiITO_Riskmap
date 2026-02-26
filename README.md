@@ -10,6 +10,7 @@ Contents
 sample_analysis.R: The R script containing the analytical workflow (Spatial statistics, GLM/GAM modeling, and Niche overlap calculations).
 
 Requirements
+The script was developed using R version 4.4.1.
 The script was run in R. The following packages are required:
 
 pROC, MuMIn, dismo, dplyr, ggplot2, sf, spdep, mgcv, caret
