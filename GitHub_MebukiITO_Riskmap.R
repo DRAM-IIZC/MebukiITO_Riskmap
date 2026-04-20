@@ -331,9 +331,9 @@ SD <- function(x, y){
 
 
 # Warren’s I (Warren et al., 2008)
+# The authors' erratum (https://academic.oup.com/evolut/article/65/4/1215/6854212) is corrected
 WI <- function(x, y){
-  H <- sqrt(sum((sqrt((x / sum(x)))-sqrt((y/sum(y))))^2)) 
-  I <- 1 - 0.5 * H
+  I <- 1 - 0.5 * sum((sqrt((x / sum(x))) - sqrt((y / sum(y))))^2)
   return(I)
 }
 
